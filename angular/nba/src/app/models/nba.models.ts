@@ -1,5 +1,6 @@
 export interface NbaViewModel {
-  firstName: string;
+  surname: string;
   lastName: string;
+  franchise: string;
   number: number;
 }

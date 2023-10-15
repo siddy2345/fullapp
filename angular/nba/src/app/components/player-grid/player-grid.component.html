@@ -1,8 +1,8 @@
 <div class="grid">
-  <kendo-grid [data]="nbaPlayers" [sortable]="true" [resizable]="true">
+  <kendo-grid [data]="nbaPlayers | async" [sortable]="true" [resizable]="true">
     <kendo-grid-column
       [autoSize]="true"
-      field="firstName"
+      field="surname"
       title="Surname"
     ></kendo-grid-column>
     <kendo-grid-column
@@ -13,7 +13,12 @@
     <kendo-grid-column
       [autoSize]="true"
       field="number"
-      title="Surname"
+      title="Jersey number"
+    ></kendo-grid-column>
+    <kendo-grid-column
+      [autoSize]="true"
+      field="franchise"
+      title="Franchise"
     ></kendo-grid-column>
   </kendo-grid>
 </div>

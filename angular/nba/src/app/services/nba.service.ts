@@ -1,26 +1,18 @@
 import { Injectable } from '@angular/core';
 import { NbaViewModel } from '../models/nba.models';
+import { HttpClient } from '@angular/common/http';
+import { Observable, catchError, of } from 'rxjs';
+import { environment } from 'src/environments/environment.development';
 
 @Injectable({
   providedIn: 'root',
 })
 export class NbaService {
-  constructor() {}
+  private url = 'players';
 
-  public getNbaPlayers(): NbaViewModel[] {
-    const nbaPlayer: NbaViewModel[] = [
-      {
-        firstName: 'lebron',
-        lastName: 'james',
-        number: 6,
-      },
-      {
-        firstName: 'carmelo',
-        lastName: 'anthony',
-        number: '00' as unknown as number,
-      },
-    ];
+  constructor(private http: HttpClient) {}
 
-    return nbaPlayer;
+  public getNbaPlayers(): Observable<NbaViewModel[]> {
+    return this.http.get<NbaViewModel[]>(`${environment.apiUrl}/${this.url}`);
   }
 }

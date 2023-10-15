@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,11 +8,15 @@ import { PlayerGridComponent } from './components/player-grid/player-grid.compon
 import { GridModule } from '@progress/kendo-angular-grid';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
-
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, GridModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    GridModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
