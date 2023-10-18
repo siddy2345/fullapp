@@ -1,4 +1,6 @@
-﻿namespace FullAppApi.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace FullAppApi.Models
 {
     public class NbaPlayerViewModel
     {
