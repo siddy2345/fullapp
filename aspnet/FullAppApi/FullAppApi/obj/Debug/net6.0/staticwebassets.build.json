@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "R+dNb44u0PtP+XMNaBg11ek5MWhuB44bLoVTdQoPGag=",
-  "Source": "FullAppApi",
-  "BasePath": "_content/FullAppApi",
+  "Hash": "AS57cFt0PGuKzTEykrg41Ok+XZngcSiAZcZdYQdpKJs=",
+  "Source": "FullAppApi.API",
+  "BasePath": "_content/FullAppApi.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
