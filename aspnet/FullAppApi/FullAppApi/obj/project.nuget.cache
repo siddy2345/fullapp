@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I5essF294TGLdgt6RQvY3e2PBWdPAv2FTxwl8mFHfdFSEsQC8A3+1yxI6s0c/gkWj6P9pzxuPkTbnNGQG6Rmsg==",
+  "dgSpecHash": "m5OBXAGfq5z63jMy5xHEGAfA48oqdKenJKVmFugd6n561/tpWtBU4ZmGGfzKuSoES0S1dkqJ0/go0dElItn1JQ==",
   "success": true,
-  "projectFilePath": "D:\\Angularprojs\\fullapp\\aspnet\\FullAppApi\\FullAppApi\\FullAppApi.csproj",
+  "projectFilePath": "D:\\Angularprojs\\fullapp\\aspnet\\FullAppApi\\FullAppApi\\FullAppApi.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gaming Intel\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Gaming Intel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

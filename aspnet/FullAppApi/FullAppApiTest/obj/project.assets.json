@@ -1533,7 +1533,7 @@
           }
         }
       },
-      "FullAppApi/1.0.0": {
+      "FullAppApi.API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1546,10 +1546,10 @@
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "compile": {
-          "bin/placeholder/FullAppApi.dll": {}
+          "bin/placeholder/FullAppApi.API.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FullAppApi.dll": {}
+          "bin/placeholder/FullAppApi.API.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -4248,15 +4248,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "FullAppApi/1.0.0": {
+    "FullAppApi.API/1.0.0": {
       "type": "project",
-      "path": "../FullAppApi/FullAppApi.csproj",
-      "msbuildProject": "../FullAppApi/FullAppApi.csproj"
+      "path": "../FullAppApi/FullAppApi.API.csproj",
+      "msbuildProject": "../FullAppApi/FullAppApi.API.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FullAppApi >= 1.0.0",
+      "FullAppApi.API >= 1.0.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.12",
       "Microsoft.NET.Test.Sdk >= 17.7.2",
       "Moq.EntityFrameworkCore >= 7.0.0.2",
@@ -4299,8 +4299,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Angularprojs\\fullapp\\aspnet\\FullAppApi\\FullAppApi\\FullAppApi.csproj": {
-              "projectPath": "D:\\Angularprojs\\fullapp\\aspnet\\FullAppApi\\FullAppApi\\FullAppApi.csproj"
+            "D:\\Angularprojs\\fullapp\\aspnet\\FullAppApi\\FullAppApi\\FullAppApi.API.csproj": {
+              "projectPath": "D:\\Angularprojs\\fullapp\\aspnet\\FullAppApi\\FullAppApi\\FullAppApi.API.csproj"
             }
           }
         }

@@ -1,4 +1,5 @@
-﻿using FullAppApi.Models;
+﻿
+using FullAppApi.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace FullAppApi.Data
