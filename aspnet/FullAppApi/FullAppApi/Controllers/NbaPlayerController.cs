@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FullAppApi.API.DTOs;
 using FullAppApi.Data;
 using FullAppApi.DTOs;
 using FullAppApi.Models;
@@ -28,12 +29,12 @@ namespace FullAppApi.Controllers
         {
             
             var players = await _dataContext.NbaPlayer.ToListAsync();
-            var mappedPlayers = players.Select(player => _mapper.Map<GetNbaPlayerDto>(player));
+            var mappedPlayers = players.Select(player => _mapper.Map<NbaPlayerDto>(player));
             return Ok(mappedPlayers);
         }
 
         [HttpPost]
-        public async Task<ActionResult<int>> CreateNbaPlayer(AddNbaPlayerDto player)
+        public async Task<ActionResult<int>> CreateNbaPlayer(NbaPlayerDto player)
         {
             var playersMapped = _mapper.Map<NbaPlayerViewModel>(player);
 

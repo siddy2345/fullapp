@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FullAppApi.API.DTOs;
 using FullAppApi.DTOs;
 using FullAppApi.Models;
 
@@ -8,8 +9,7 @@ namespace FullAppApi
     {
         public AutoMapperProfile()
         {
-            CreateMap<NbaPlayerViewModel, GetNbaPlayerDto>();
-            CreateMap<AddNbaPlayerDto, NbaPlayerViewModel>();
+            CreateMap<NbaPlayerViewModel, NbaPlayerDto>().ReverseMap();
             CreateMap<UpdateNbaPlayerDto, NbaPlayerViewModel>();
         }
     }

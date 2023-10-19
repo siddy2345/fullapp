@@ -1,6 +1,6 @@
-﻿namespace FullAppApi.DTOs
+﻿namespace FullAppApi.API.DTOs
 {
-    public class GetNbaPlayerDto
+    public class NbaPlayerDto
     {
         public int Id { get; set; }
         public string Surname { get; set; } = string.Empty;
