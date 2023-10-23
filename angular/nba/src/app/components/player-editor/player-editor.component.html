@@ -1,0 +1,15 @@
+<form [formGroup]="form">
+  <label for="surname">Surname: </label>
+  <input id="surname" type="text" formControlName="surname" />
+
+  <label for="last-name">Last Name: </label>
+  <input id="last-name" type="text" formControlName="lastName" />
+
+  <label for="number">Jersey number: </label>
+  <input id="number" type="number" formControlName="number" />
+
+  <label for="franchise">Franchise: </label>
+  <input id="franchise" type="text" formControlName="franchise" />
+
+  <button (click)="onCreate()">Create player</button>
+</form>

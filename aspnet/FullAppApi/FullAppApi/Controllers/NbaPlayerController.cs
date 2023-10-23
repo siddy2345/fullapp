@@ -33,6 +33,7 @@ namespace FullAppApi.Controllers
             return Ok(mappedPlayers);
         }
 
+        [Route("players")]
         [HttpPost]
         public async Task<ActionResult<int>> CreateNbaPlayer(NbaPlayerDto player)
         {
